@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/évaluation jeu de dé",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "frgol",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
