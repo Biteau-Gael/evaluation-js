@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.background {
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    overflow: hidden;
+    margin: auto;
+    height: 90%;
+    background-image: url(Images/background-jeu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+}
+
+.ligne-haut {
+    height: 10%;
+    position: relative;
+}
+
+.ligne-milieu,
+.ligne-bas {
+    height: 45%;
+    position: relative;
+}
+
+.joueur {
+    font-size: 3vw;
+}
+
+.score-total {
+    font-size: 5vw;
+}
+
+ion-icon,
+.score-total {
+    color: #41bbd9;
+}
+
+#tour-joueur1,
+#tour-joueur2 {
+    color: #41bbd9;
+    font-size: 3vw;
+}
+
+.current,
+.score-temporaire {
+    background-color: #41bbd9;
+    width: 150px;
+    margin: auto;
+}
+
+.score-temporaire {
+    color: white;
+    font-size: 3vw;
+}
+
+div .btn,
+.current {
+    font-size: 1.5vw;
+}
